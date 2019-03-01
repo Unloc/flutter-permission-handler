@@ -1,5 +1,6 @@
 # Flutter Permission handler Plugin
 
+
 [![pub package](https://img.shields.io/pub/v/permission_handler.svg)](https://pub.dartlang.org/packages/permission_handler)
 
 A permissions plugin for Flutter. This plugin provides a cross-platform (iOS, Android) API to request and check permissions.
@@ -8,6 +9,12 @@ Branch  | Build Status
 ------- | ------------
 develop | [![Build Status](https://travis-ci.com/BaseflowIT/flutter-permission-handler.svg?branch=develop)](https://travis-ci.com/BaseflowIT/flutter-permission-handler)
 master  | [![Build Status](https://travis-ci.com/BaseflowIT/flutter-permission-handler.svg?branch=master)](https://travis-ci.com/BaseflowIT/flutter-permission-handler)
+
+## Unloc customizations
+
+Removed all permission strategies except ContactPermissionStrategy for iOS. This in order to avoid app store issues like this:
+
+  The app's Info.plist file should contain a NSCalendarsUsageDescription key with a user-facing purpose string explaining clearly and completely why your app needs the data.
 
 ## Features
 
