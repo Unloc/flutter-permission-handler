@@ -12,7 +12,7 @@ master  | [![Build Status](https://travis-ci.com/BaseflowIT/flutter-permission-h
 
 ## Unloc customizations
 
-Removed all permission strategies except ContactPermissionStrategy for iOS. This in order to avoid app store issues like this:
+Removed all permission strategies except ContactPermissionStrategy, PhotoPermissionStrategy and AudioVideoPermissionStrategy (Camera) for iOS. This in order to avoid app store issues like these:
 
   The app's Info.plist file should contain a NSCalendarsUsageDescription key with a user-facing purpose string explaining clearly and completely why your app needs the data.
 

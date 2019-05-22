@@ -10,6 +10,8 @@
 #import <UIKit/UIKit.h>
 
 #import "ContactPermissionStrategy.h"
+#import "PhotoPermissionStrategy.h"
+#import "AudioVideoPermissionStrategy.h"
 #import "UnknownPermissionStrategy.h"
 #import "Enums.h"
 #import "Codec.h"
